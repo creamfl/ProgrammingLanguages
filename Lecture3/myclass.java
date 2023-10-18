@@ -1,4 +1,4 @@
-package lecture3PL;
+package Niki Ramanchev 5553;
 
 public class myNumber {
 	private int num;
