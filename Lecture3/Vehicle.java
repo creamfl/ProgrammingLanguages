@@ -1,4 +1,8 @@
-package Niki Ramanchev 5553;
+package lecture3PL;
+
+public class Vehicle {
+	
+
 
 public class Car {
 	private String type;
@@ -12,7 +16,7 @@ public class Car {
 		fuel="";
 		body_color="";
 	}
-	Car(String type, int seats, String fuel, String body_color){
+	public Car(String type, int seats, String fuel, String body_color){
 		this.type=type;
 		this.no_seats=seats;
 		this.fuel=fuel;
@@ -42,9 +46,9 @@ public class Car {
 	public void setBody_color(String body_color) {
 		this.body_color=body_color;
 	}
-	class Vehicle{
+	
 		public static void main(String[] args) {
-			Car car1 = new Car("Toyota",5,"dizel","green");
+			Car car1 = new Car("Toyota",5,"BENZIN","green");
 			Car car2 = new Car();
 			
 		System.out.println("Car 1 details:");
@@ -66,6 +70,9 @@ public class Car {
 
 		}
 	}
+
+
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
