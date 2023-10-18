@@ -1,11 +1,17 @@
-package Niki Ramanchev 5553;
+package lecture3PL;
 
 public class myNumber {
 	private int num;
 	private int num2;
+	
 	public myNumber() {
-		num=0;
-		num2=100;
+		num = 0;
+		num2 = 100;
+	}
+	
+	public myNumber(int num, int num2) {
+		this.num = num;
+		this.num2 = num2;
 	}
 	int getNum() {
 		return num;
@@ -30,6 +36,10 @@ public class myNumber {
 		A.setNum(10);
 		System.out.println(A.getNum());
 		System.out.println(A.num2);
+		
+		 myNumber mb=new myNumber(13, 10);
+	        System.out.println("mb.getNum(): " + mb.getNum());
+	        System.out.println("mb.getNum2(): " + mb.getNum2());
 	}
 
 }
