@@ -3,7 +3,7 @@ import java.lang.Math;
 public class Exercise2 {
 
 	public static void main(String[] args) {
-		double decimalVariable = 6;
+		double decimalVariable = 6.99;
 	       
         double tangentValue = Math.tan(decimalVariable);
         double cotangentValue = 1 / tangentValue;
